@@ -1,0 +1,133 @@
+// Fonts & Reset
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import './reset.scss';
+@import './variables.scss';
+@import './common.scss';
+
+
+
+
+//Header
+
+header {
+    display: flex;
+    background-color: $primary-color;
+    justify-content: center;
+    align-items: center;
+  
+    img {
+      width: 3rem;
+      height: auto;
+      margin: 1rem;
+    }
+  }
+  header h1 {
+    color: $white;
+    padding: 35px 15px;
+    font-size: 3rem;
+    text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+}
+  
+
+//Footer
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 2rem;
+    color: $white;
+  
+    ul {
+      list-style-type: none;
+      text-align: center;
+      line-height: 150%;
+      margin: 0;
+      padding: 0;
+    }
+    .footer-links {
+      a {
+        color: $white;
+        font-size: .8em;
+        text-shadow: 3px 1px 2px #000;
+      }
+    }
+  
+    .copyrights {
+      text-shadow: 3px 1px 2px #000;
+    }
+  }
+
+
+  .status {
+    font-size: .9em;
+    color: $white;
+  }
+
+  .message {
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 1rem;
+    color: $white;
+  }
+
+  main {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+
+    .teamtext {
+        font-size: 1.7em;
+        font-weight: $font-weight-bold;
+    }
+}
+
+  .result {
+    color: #fff;
+    font-size: 1.4em;
+    background: #ff0000;
+    padding: 5px;
+    border-radius: 10px 0 10px 0;
+    margin: 0 0 10px;
+}
+
+  .scoreboard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background: rgb(0 0 0 / 60%);
+    border-radius: 10px;
+  }
+
+  .grid {
+    list-style-type: none;
+    margin: 1rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+
+  .teams {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: 3.75rem;
+    color: $white;
+
+    span {
+        padding: 0 0 10px;
+        font-weight: $font-weight-bold;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
